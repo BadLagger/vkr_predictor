@@ -1,0 +1,10 @@
+[Unit]
+Description=Predictor for Collector Service
+
+[Service]
+Type=simple
+ExecStart=/etc/collector/predictor /etc/collector/configs/predictor.json
+User=root
+
+[Install]
+WantedBy=multi-user.target
