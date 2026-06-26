@@ -1,0 +1,9 @@
+*
+
+!*.go
+!.gitignore
+!go.mods
+!*.json
+!Makefile
+!*.service
+!*/

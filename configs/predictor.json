@@ -1,0 +1,15 @@
+{
+    "data_sources": {
+        "parameters": [
+            "cpu_temp",
+            "cpu_freq",
+            "battery_voltage"
+        ],
+        "predict": "charger_temp",
+        "model_path": "/etc/collector/model/charger_treelite.so"
+    },
+    "poll_interval_seconds": 5,
+    "buffer_size": 1000,
+    "uds_normalizer_path": "/var/run/metrics_normalizer.sock",
+    "uds_socket_path": "/var/run/metrics_predictor.sock"
+}
